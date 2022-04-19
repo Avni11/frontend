@@ -1,0 +1,10 @@
+p {
+  color: blueviolet;
+}
+/*element selector has higher priority*/
+* {
+  color: rgb(209, 231, 228);
+}
+a[target] {
+  color: brown;
+}

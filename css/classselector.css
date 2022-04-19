@@ -1,0 +1,14 @@
+.ex {
+  color: cyan;
+}
+#l {
+  color: darkmagenta;
+  font-size: 25px;
+}
+p:hover {
+  color: darkslategrey;
+}
+/*pesudo class it changes it's clr based whenever hover mouse*/
+a:visited {
+  color: lawngreen;
+}

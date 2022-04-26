@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+  box-shadow: 5px 0px 20px red;
+  border-radius: 50%;
+  width: 274px;
+  margin-left: 40%;
+  margin-right: 25%;
+}
+h1:hover {
+  color: royalblue;
+  background-color: skyblue;
+}
+nav {
+  background-color: black;
+  padding-left: 20%;
+  position: sticky;
+  top: 30px;
+}
+#foot {
+  text-align: center;
+  box-shadow: 20px 0px 25px rgb(255, 0, 170);
+  border-radius: 5%;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin-left: 30px;
+}
+a:hover {
+  color: brown;
+}
+a:visited {
+  color: palevioletred;
+}
+p {
+  margin-left: 20px;
+}
+img {
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+}

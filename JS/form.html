@@ -8,23 +8,26 @@
 </head>
 <body>
     <form action="" style="border: 1px black solid ;padding: 5px;"id="frm">
-        <label for="first name" id="fn">first name:</label>
-        <input type="text"/><br/><br/>
-        <label for="last name" id="ln">last name:</label>
-        <input type="text"><br/><br/>
-        <label for="mailid" id="mi">mailid:</label>
-        <input type="email"><br/><br/>
-        <label for="phonenumber" id="ph">phonenumber:</label>
-        <input type="number"><br/><br/>
+        <label for="first name" >first name:</label>
+        <input type="text" id="fn"/><br/><br/>
+        <label for="last name" >last name:</label>
+        <input type="text" id="ln"><br/><br/>
+        <label for="mailid" >mailid:</label>
+        <input type="email" id="mi"><br/><br/>
+        <label for="phonenumber" >phonenumber:</label>
+        <input type="number" id="ph"><br/><br/>
         <label for="gender" id="ge">gender:</label>
-        <input type="radio" name="gender">female</input>
-        <input type="radio" name="gender">male</input>
+        <input type="radio" name="gender" id="ge">female</input>
+        <input type="radio" name="gender" id="ge">male</input>
         <br><br/>
-        <label for="nationality" id="nat">nationality:</label>
-        <input type="text"><br/>
-        <button id="btn" >submit </button>
-        <script src="./form.js">
-        </script>
+        <label for="nationality" >nationality:</label>
+        <input type="text" id="nat"><br/>
+        <button id="btn" onclick="store()" >submit </button>
+        <script src="./form.js"></script>
+        <table>
+            <td>name</td>
+           <td></td>
+        </table>
     </form>
 </body>
 </html>

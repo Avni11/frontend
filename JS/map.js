@@ -29,6 +29,7 @@ console.log("from filter");
 var x = arr.filter((val, i) => {
   return val % 2 == 0;
 });
+
 console.log(x);
 //const can't  redeclare and change value
 //const x=78
